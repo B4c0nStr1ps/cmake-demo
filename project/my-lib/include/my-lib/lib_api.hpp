@@ -1,3 +1,5 @@
+#include <string>
+
 namespace dsl {
-	auto do_print() -> void;
+	auto do_print() -> std::string;
 }
